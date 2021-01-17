@@ -1,0 +1,104 @@
+:root {
+  --fondo: #aec1ba;
+  --principal: #cf755a;
+  --blanco: #fff;
+  --negro: #000;
+  --icons_p: #3d3737;
+  --active-link: #fbbaa4;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+.contenedor-detalle {
+  width: 100%;
+  height: 100vh;
+}
+
+.foto {
+  width: 100%;
+  height: 50%;
+  position: relative;
+  display: flex;
+}
+.foto > img {
+  border-top-left-radius: 35px;
+  border-top-right-radius: 35px;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+.foto > i {
+  color: #3d3737;
+}
+.foto > .fa-heart {
+  margin-left: auto;
+  z-index: 2;
+  font-size: 27px;
+  margin-right: 15px;
+  margin-top: 15px;
+}
+.foto > .fa-times {
+  margin-right: auto;
+  z-index: 2;
+  font-size: 27px;
+  margin-left: 15px;
+  margin-top: 15px;
+}
+
+/* ss */
+.descipcion {
+  width: 100%;
+  height: 50%;
+}
+.descipcion > .titulo {
+  width: 100%;
+  height: 15%;
+  display: flex;
+  flex-direction: row;
+  line-height: 0;
+}
+
+.titulo > .texto-g {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.texto-g > h3 {
+  margin-right: auto;
+  margin-left: 20px;
+}
+.prec {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+.redes {
+  width: 20%;
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-right: 10px;
+}
+
+.redes > .fa-whatsapp {
+  color: #00bb2d;
+}
+.redes > .fa-share-alt {
+  color: #3d3737;
+}
+
+.redes > i {
+  font-size: 26px;
+}
+
+.texto-des {
+  padding: 20px;
+}

@@ -1,0 +1,34 @@
+.producto_p_c {
+  background-color: red;
+  width: 108px;
+  height: 140px;
+  border-radius: 16px;
+}
+
+.img_producto {
+  width: 100%;
+  height: 96px;
+  background-color: #fbf2ef;
+  border-radius: 16px;
+  border: solid 1px #cf755a;
+  box-sizing: border-box;
+}
+
+.nombre_producto {
+  width: 100%;
+  height: 44px;
+  line-height: 0.1em;
+}
+
+.text-nombre {
+  font-family: "Roboto", sans-serif;
+  font-size: 11px;
+  text-align: center;
+}
+
+.text-precio {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.6);
+  text-align: center;
+}

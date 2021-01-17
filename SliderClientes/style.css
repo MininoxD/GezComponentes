@@ -1,0 +1,184 @@
+:root {
+  --fondo: #aec1ba;
+  --principal: #cf755a;
+  --blanco: #fff;
+  --negro: #000;
+  --icons_p: #3d3737;
+}
+body {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  border: none;
+  outline: none;
+  background-color: var(--fondo);
+  height: 100vh;
+}
+
+/* navbar */
+.nav-menu {
+  height: 8%;
+  display: flex;
+  align-items: center;
+}
+.nav-menu > i {
+  font-size: 24px;
+}
+.nav-menu > .fa-qrcode {
+  margin-right: 10px;
+  margin-left: auto;
+}
+
+.nav-menu > .fa-user-alt {
+  margin-right: 10px;
+}
+/* Colores de los iconos */
+.nav-menu,
+.producto_p_c > .fas {
+  color: var(--icons_p);
+}
+/* Buscador */
+.nav-menu > .search {
+  background-color: var(--blanco);
+  width: 273px;
+  height: 29px;
+  float: left;
+  border: solid 1px var(--principal);
+  display: inline-flex;
+  align-items: center;
+  border-radius: 5px;
+  box-sizing: border-box;
+  margin-left: 10px;
+}
+.nav-menu > .search > i {
+  margin: 0 5px 0 5px;
+}
+.nav-menu > .search > input {
+  border-radius: 5px;
+  flex: 1;
+  border: none;
+  height: 25px;
+  line-height: 25px;
+  outline: 0;
+}
+
+.slider-market {
+  height: 20%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.slider-market > img {
+  width: 95%;
+  height: 95%;
+  border-radius: 16px;
+  border: solid 2px #cf755a;
+}
+
+.cuerpo {
+  width: 100%;
+  height: 72%;
+}
+/* Productos */
+/* Lista de productos */
+.list-productos {
+  width: 100%;
+  overflow: auto;
+  height: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.producto_p_c {
+  margin-top: 6px;
+  background-color: var(--blanco);
+  width: 108px;
+  height: 140px;
+  border-radius: 16px;
+  justify-self: center;
+}
+
+.img_producto {
+  display: flex;
+  position: relative;
+  width: 100%;
+  height: 70%;
+  background-color: #fbf2ef;
+  border-radius: 16px;
+  border: solid 1px #cf755a;
+  box-sizing: border-box;
+}
+.img_producto > .fas {
+  font-size: 80%;
+}
+.img_producto > .fa-ellipsis-h {
+  float: left;
+  z-index: 2;
+  margin-left: 5px;
+  margin-top: 5px;
+  color: var(--icons_p);
+}
+
+.img_producto > .fa-plus {
+  z-index: 2;
+  margin-left: auto;
+  margin-right: 5px;
+  margin-top: 5px;
+  color: var(--icons_p);
+}
+.img_producto > img {
+  position: absolute;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  border-radius: 16px;
+}
+
+.nombre_producto {
+  width: 100%;
+  height: 30%;
+  line-height: 30%;
+}
+
+.text-nombre {
+  font-family: "Roboto", sans-serif;
+  font-size: 60%;
+  text-align: center;
+}
+
+.text-precio {
+  font-family: "Roboto", sans-serif;
+  font-size: 80%;
+  color: rgba(0, 0, 0, 0.6);
+  text-align: center;
+}
+/* Flotar Action botton */
+
+.float_action {
+  width: 56px;
+  height: 56px;
+  background-color: var(--principal);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 3;
+  display: scroll;
+  position: fixed;
+  bottom: 24px;
+  right: 15px;
+  box-shadow: 0px 5px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.float_action > span {
+  margin-top: 3px;
+  font-size: 1.4em;
+  color: var(--blanco);
+}
+
+.float_action > i {
+  margin: 0;
+  padding: 0;
+}

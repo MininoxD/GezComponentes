@@ -1,0 +1,160 @@
+:root {
+  --fondo: #aec1ba;
+  --principal: #cf755a;
+  --blanco: #fff;
+  --negro: #000;
+  --icons_p: #3d3737;
+  --active-link: #fbbaa4;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  height: 100vh;
+  background-color: var(--fondo);
+}
+
+/* Nav */
+.nav-cli {
+  width: 100%;
+  height: 9%;
+  background-color: var(--principal);
+  display: flex;
+  align-items: center;
+}
+/* qr */
+.nav-cli > ul {
+  margin-left: auto;
+  margin-right: 10px;
+  list-style: none;
+  color: var(--blanco);
+}
+
+.nav-cli > ul > li {
+  display: inline;
+  margin-right: 7px;
+  font-size: 20px;
+}
+/* back  */
+.nav-cli > i:first-child {
+  color: var(--blanco);
+  margin-left: 20px;
+}
+.nav-cli > p {
+  color: var(--blanco);
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  margin-left: 20px;
+}
+
+/* Lista de la canasta */
+.cuerpo-canasta {
+  width: 100%;
+  height: 91%;
+}
+
+/* canasta */
+.list-canasta {
+  width: 100%;
+  height: 80%;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: auto;
+}
+
+.canasta-item {
+  background-color: #f9f0ed;
+  width: 97%;
+  height: 72px;
+  display: flex;
+  align-items: center;
+  margin-top: 15px;
+}
+
+.canasta-item > h4 {
+  color: rgba(0, 0, 0, 0.6);
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+}
+
+.canasta-item > img {
+  width: 51px;
+  height: 51px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.item-cantidad {
+  display: flex;
+  margin-left: auto;
+  margin-right: 10px;
+  flex-direction: column;
+  align-items: center;
+}
+.item-cantidad > span {
+  color: rgba(0, 0, 0, 0.6);
+  font-size: 12px;
+}
+.item-cantidad > p {
+  color: rgba(0, 0, 0, 0.6);
+  font-size: 20px;
+}
+
+.item-plus {
+  display: flex;
+  margin-right: 15px;
+  flex-direction: column;
+  align-items: center;
+}
+
+.item-plus > i {
+  font-size: 25px;
+}
+
+.item-plus > .fa-angle-up {
+  margin-bottom: 6px;
+}
+.item-plus > .fa-angle-down {
+  margin-top: 6px;
+}
+
+/* Total */
+.precio-total {
+  height: 20%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.precio-total {
+  height: 20%;
+  width: 100%;
+}
+
+.total-text {
+  display: flex;
+  justify-content: space-between;
+}
+
+.total-text > h3 {
+  margin: 15px;
+  font-size: 25px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+}
+
+.precio-total > button {
+  width: 150px;
+  height: 34px;
+  background-color: var(--principal);
+  border-radius: 7px;
+  border: none;
+  color: var(--blanco);
+  margin-left: auto;
+  margin-right: 20px;
+}
