@@ -2,8 +2,6 @@ Titulo: Componentes para aplicacion en REACT JS GEZ
 <br/>
 Descripcion: Componente para app movil en react js
 <br/>
-Autor: Luis Enrique
-<br/>
 Creado: 2020 octubre
 <br/>
 Stack: HTML,CSS
